@@ -4,8 +4,8 @@
 > 中间件的行为类似于Java中过滤器的工作原理;<br />
 > node异步原因,我们需要提供一种机制,在当前中间件处理完成后,通知下一个中间件执行.即通过尾触发方式进行触发;
 
-一个基本的中间件会是如下形式:<br />
-var middleware = (req, res, next) =>{
-    //todo
-    next();
-  }
+> 一个基本的中间件会是如下形式:<br />
+> var middleware = (req, res, next) =>{
+>    //todo
+>    next();
+>  }
